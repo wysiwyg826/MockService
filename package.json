@@ -1,0 +1,41 @@
+{
+  "name": "mock_service",
+  "version": "1.0.0",
+  "description": "封装mockjs,添加测试功能",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot --inline --host 0.0.0.0 --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PINGFAN826/MockService.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "PiNgFan826",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PINGFAN826/MockService/issues"
+  },
+  "homepage": "https://github.com/PINGFAN826/MockService#readme",
+  "dependencies": {
+    "mockjs": "^1.0.1-beta2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-check-es2015-constants": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.10.1",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
