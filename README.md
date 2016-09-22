@@ -4,7 +4,7 @@
 > 结合mockjs,完成前端模拟增删改查的操作.
 
 # 地址
-> git clone https://github.com/PINGFAN826/MockService.git
+> git clone https://github.com/wysiwyg826/MockService.git
 
 # 方法
 
